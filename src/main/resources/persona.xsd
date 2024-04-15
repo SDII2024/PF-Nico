@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.webservicesoap.org/persona"
+           xmlns:tns="http://www.webservicesoap.org/persona"
+           elementFormDefault="qualified">
+
+    <xs:element name="PersonaRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dni" type="xs:int" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="PersonaResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dni" type="xs:int" />
+                <xs:element name="nombre" type="xs:string" />
+                <xs:element name="apellido" type="xs:string" />
+                <xs:element name="fecha_nacimiento" type="xs:string" />
+                <xs:element name="mail" type="xs:string" />
+                <xs:element name="telefono" type="xs:int" />
+                <xs:element name="sexo" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
