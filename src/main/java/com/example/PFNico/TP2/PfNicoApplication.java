@@ -1,4 +1,4 @@
-package com.example.PFNico;
+package com.example.PFNico.TP2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,8 @@
-package com.example.PFNico.endpoint;
+package com.example.PFNico.TP2.endpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
-import com.example.PFNico.service.PersonaService;
+import com.example.PFNico.TP2.service.PersonaService;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;

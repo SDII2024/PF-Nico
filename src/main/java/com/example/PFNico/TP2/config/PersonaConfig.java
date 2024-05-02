@@ -1,4 +1,4 @@
-package com.example.PFNico.config;
+package com.example.PFNico.TP2.config;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;

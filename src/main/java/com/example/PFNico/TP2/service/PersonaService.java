@@ -1,4 +1,4 @@
-package com.example.PFNico.service;
+package com.example.PFNico.TP2.service;
 
 import org.springframework.stereotype.Service;
 import org.webservicesoap.persona.PersonaRequest;
